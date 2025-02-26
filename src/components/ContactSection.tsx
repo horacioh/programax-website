@@ -1,7 +1,5 @@
 
-import { Button } from '@/components/ui/button';
-import { Input } from '@/components/ui/input';
-import { Textarea } from '@/components/ui/textarea';
+import { Mail } from 'lucide-react';
 
 const ContactSection = () => {
   return (
@@ -14,17 +12,15 @@ const ContactSection = () => {
           </p>
         </div>
         <div className="glass rounded-xl p-8">
-          <form className="space-y-6">
-            <div className="grid md:grid-cols-2 gap-6">
-              <Input placeholder="Name" className="bg-white/50" />
-              <Input placeholder="Email" type="email" className="bg-white/50" />
-            </div>
-            <Input placeholder="Subject" className="bg-white/50" />
-            <Textarea placeholder="Message" className="bg-white/50 min-h-[150px]" />
-            <Button size="lg" className="w-full hover-scale">
-              Send Message
-            </Button>
-          </form>
+          <div className="flex flex-col items-center justify-center space-y-4">
+            <Mail className="w-12 h-12" />
+            <a 
+              href="mailto:info@programax.tech" 
+              className="text-2xl md:text-3xl lg:text-4xl font-bold hover:text-primary transition-colors hover-scale inline-block"
+            >
+              info@programax.tech
+            </a>
+          </div>
         </div>
       </div>
     </section>
