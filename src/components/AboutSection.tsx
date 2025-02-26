@@ -24,7 +24,7 @@ const AboutSection = () => {
           </div>
           <div className="relative aspect-square">
             <img
-              src="https://images.unsplash.com/photo-1605810230434-7631ac76ec81"
+              src="/public/who-we-are.png"
               alt="Team collaboration"
               className="rounded-lg object-cover w-full h-full"
             />
