@@ -1,23 +1,23 @@
 
-import { Award, Rocket, Globe } from 'lucide-react';
+import { Globe, Smartphone, Lightbulb } from 'lucide-react';
 import { Card, CardHeader, CardTitle, CardContent } from '@/components/ui/card';
 
 const ServicesSection = () => {
   const services = [
     {
       icon: <Globe className="w-10 h-10 mb-4" />,
-      title: "Web Development",
-      description: "Creating responsive, modern web applications with cutting-edge technologies."
+      title: "Web App Development",
+      description: "Building scalable and modern web applications with cutting-edge technologies."
     },
     {
-      icon: <Rocket className="w-10 h-10 mb-4" />,
-      title: "Digital Strategy",
-      description: "Strategic planning and execution to accelerate your digital transformation."
+      icon: <Smartphone className="w-10 h-10 mb-4" />,
+      title: "Mobile Development",
+      description: "Creating powerful native and cross-platform mobile applications."
     },
     {
-      icon: <Award className="w-10 h-10 mb-4" />,
-      title: "UI/UX Design",
-      description: "Crafting beautiful, intuitive interfaces that users love."
+      icon: <Lightbulb className="w-10 h-10 mb-4" />,
+      title: "Product Design & Strategy",
+      description: "Strategic planning and intuitive design solutions for digital products."
     }
   ];
 
