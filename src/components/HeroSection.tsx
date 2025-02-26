@@ -13,12 +13,6 @@ const HeroSection = () => {
           <p className="text-lg md:text-xl text-muted-foreground mb-8 animate-fade-up" style={{ animationDelay: '0.2s' }}>
             We craft innovative digital solutions that elevate your business to new heights.
           </p>
-          <div className="flex justify-center gap-4 animate-fade-up" style={{ animationDelay: '0.4s' }}>
-            <Button size="lg" className="hover-scale">Get Started</Button>
-            <Button size="lg" variant="outline" className="hover-scale">
-              Learn More
-            </Button>
-          </div>
         </div>
       </div>
     </section>
